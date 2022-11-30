@@ -81,6 +81,7 @@ TOODOO_TRELLO_DONE_LIST_ID=123456
 
 # 💻 Running locally
 
+run this in your project's terminal:
 ```
 toodoo
 ```
