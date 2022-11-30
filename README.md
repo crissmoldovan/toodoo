@@ -7,7 +7,7 @@
   </a>
 </p>
 <p align="center">
-Toodoo is a CLI tool that automatically syncs TODO and FIXME comments from your code with Trello.
+Toodoo is a CLI tool that syncs TODO and FIXME comments from your code with Trello.
 </p>
 
 # Features
