@@ -20,8 +20,6 @@ Toodoo is a CLI tool that automatically syncs TODO and FIXME comments from your 
 
 ## 1. intall toodoo in your project
 
----
-
 ```
 npm i toodoo
 ```
@@ -33,8 +31,6 @@ yarn add toodoo
 ```
 
 ## 2. setup trello
-
----
 
 you will need to create a private powerup and authorize it to access your workspace.
 
@@ -50,8 +46,6 @@ Please follow these stepts:
 - generate and copy your `token`
 
 ## 3. add your `api key` and `token` to your config
-
----
 
 ### using the CLI:
 
