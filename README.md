@@ -2,7 +2,7 @@
   <a href="https://toodoo.io">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="./static/toodoo-logo.svg">
-      <img src="https://user-images.githubusercontent.com/4060187/196936104-5797972c-ab10-4834-bd61-0d1e5f442c9c.png" height="128">
+      <img src="./static/toodoo-logo.svg" height="128">
     </picture>
     <h1 align="center">TOODOO</h1>
   </a>
