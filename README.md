@@ -1,8 +1,8 @@
 <p align="center">
   <a href="https://toodoo.io">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./static/toodoo-logo.svg">
-      <img src="./static/toodoo-logo.svg" height="128">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/crissmoldovan/toodoo/raw/main/static/toodoo-logo.svg">
+      <img src="https://github.com/crissmoldovan/toodoo/raw/main/static/toodoo-logo.svg" height="128">
     </picture>
   </a>
 </p>
@@ -82,6 +82,7 @@ TOODOO_TRELLO_DONE_LIST_ID=123456
 # 💻 Running locally
 
 run this in your project's terminal:
+
 ```
 toodoo
 ```
