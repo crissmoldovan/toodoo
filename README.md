@@ -13,8 +13,8 @@ Toodoo is a CLI tool that syncs TODO and FIXME comments from your code with Trel
 # Features
 
 - all `@TODO` and `@FIXME` comments will be synced with trello
-- when the comment is removed fro code, it's associate card will be moved to your `done` list
-- `@username` mentions will be linked to trellow board menbers (feautre needs fixing)
+- when the comment is removed from code, it's associate card will be moved to your `done` list
+- `@username` mentions will be linked to trello board menbers (feautre needs fixing)
 
 # 🚀 Getting Started
 
