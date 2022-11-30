@@ -49,7 +49,7 @@ Please follow these stepts:
 
 ### using the CLI:
 
-Run the cli config helper
+Run the cli config helper, and when asked, add the `key` and `token`
 
 ```
 toodoo setup
