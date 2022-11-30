@@ -1,0 +1,59 @@
+{
+  "name": "toodoo",
+  "version": "0.1.0",
+  "description": "no description",
+  "author": "Cristian Moldovan <crissmoldovan@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "bin": {
+    "toodoo": "./dist/cli/toodoo.js"
+  },
+  "scripts": {
+    "start": "npm run build-ts && node dist/index.js",
+    "dev": "npm run build-ts && node --inspect-brk dist/index.js && chmod +x dist/index.js",
+    "type-check": "tsc --noEmit",
+    "build": "npm run type-check && npm run build-ts",
+    "build-ts": "rm -Rf dist/ && swc src/ --config-file .swcrc_build -d dist/",
+    "test": "jest --watch",
+    "coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.3.8",
+    "@swc/jest": "^0.2.23",
+    "@types/async": "^3.2.15",
+    "@types/cli-table": "^0.3.1",
+    "@types/inquirer": "^9.0.3",
+    "@types/jest": "^29.1.2",
+    "@types/jscodeshift": "^0.11.5",
+    "@types/lodash": "^4.14.190",
+    "@types/node": "^18.11.0",
+    "@types/object-hash": "^3.0.0",
+    "jest": "^29.2.0",
+    "jest-watch-typeahead": "^2.2.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  },
+  "keywords": [],
+  "dependencies": {
+    "async": "^3.2.4",
+    "cli-table": "^0.3.11",
+    "commander": "^9.4.1",
+    "fix-esm": "^1.0.1",
+    "get-stdin": "9.0.0",
+    "globby": "^13.1.2",
+    "http-method-enum": "^1.0.0",
+    "inquirer": "^9.1.4",
+    "isomorphic-unfetch": "^3.1.0",
+    "jscodeshift": "^0.14.0",
+    "leasot": "^13.2.0",
+    "lodash": "^4.17.21",
+    "log-symbols": "^5.1.0",
+    "object-hash": "^3.0.0",
+    "ora": "^6.1.2",
+    "recast": "^0.21.5"
+  }
+}
