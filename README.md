@@ -147,9 +147,9 @@ toodoo trello info
 
 # Dev roadmap:
 
-- check and ask to add the config file to `.gitignore` if preset
+- check if .gitignore already contains the config file, and ask to add the config file to `.gitignore` if file is present
 - add option to run only when a specifc git branch is active (eg: only run on `development`)
-- investigate if integration from trello to git bould be possible & advisable (this would cover scenarios such as: auto-removal of commit is advisable when card is moved to done list, or changing the @username mentions when a members of a card are changed in trello)
+- investigate if integration from trello to git bould be possible & advisable (this would cover scenarios such as: auto-removal of commit when card is moved to done list, or changing the @username mentions on code when a members of a card are changed in trello)
 - Add a public Trello board with examples from `toodoo` code
 - Add support for other PM tools
 
